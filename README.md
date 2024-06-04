@@ -31,3 +31,13 @@ Then the instructor created more directories to store the ipxe files '''/repo/In
 Inside that directory we will have 4 files.
 + 2 images (ipxe-x86_64.efi and undionly.kpxe)
 + two configuration files (ipxe-boot and ipxe-boot-efi)
+
+### Cluster Metrics Display
+In newer versions this is not enabled by default and must be enabled inside Addons section. The metrics from main dashboard are provided by Grafana.
+All data is collected by Prometheus and displayed in Grafana.
+
+### VM Backup Target
+Harvester provides a backup and restore functionality for VMs. The backup targer can be either NFS server or an S3 bucket. The backup target functionality is inherited from the backup feature of the embedded Longhorn cluster.
+
+> Restore to New Cluster
+> + 
