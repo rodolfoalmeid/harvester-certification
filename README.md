@@ -39,6 +39,8 @@ All data is collected by Prometheus and displayed in Grafana.
 ### VM Backup Target
 Harvester provides a backup and restore functionality for VMs. The backup targer can be either NFS server or an S3 bucket. The backup target functionality is inherited from the backup feature of the embedded Longhorn cluster.
 
-> Restore to New Cluster
-sdfsdfsdf
-sdfgsdfgs
+#### Restore to New Cluster
++  An existing backup target that contains VM backups can be connected to a new cluster and the VMs can be restored.
++ This functionality can be used:
+    + As a disaster recover method for the VMs.
+    + To move VMs to another Harvester cluster.
