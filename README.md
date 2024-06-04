@@ -40,4 +40,5 @@ All data is collected by Prometheus and displayed in Grafana.
 Harvester provides a backup and restore functionality for VMs. The backup targer can be either NFS server or an S3 bucket. The backup target functionality is inherited from the backup feature of the embedded Longhorn cluster.
 
 > Restore to New Cluster
-> + 
+sdfsdfsdf
+sdfgsdfgs
